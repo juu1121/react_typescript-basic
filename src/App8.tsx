@@ -8,7 +8,7 @@ function App8() {
     }
 
 
-    //함수형 컨포넌트 정의하기  //함수형 컨포넌트의 타입 //props의 타입
+    //함수형 컨포넌트 정의하기  //FC => 함수형 컨포넌트의 타입 //<FortuneProps> => props의 타입
     const FortuneComponent:FC<FortuneProps>=(props)=>{
         return (
             <p>오늘의 운세 : {props.fortune}</p>

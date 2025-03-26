@@ -13,6 +13,7 @@ const Friends:FC<FriendsProps> = ({list, onDelete}) => {
         <>
             <h2>친구 목록입니다.</h2>
             <ul>
+                
                 {list.map((item, index) => 
                     <li key = {uuid()}>
                         {item}
