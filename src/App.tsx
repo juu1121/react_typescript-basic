@@ -20,6 +20,7 @@ function App() {
   //useState에서 사용하는 type을 강제할수있다.
   const [msg, setMsg] = useState<string>("hi");
   const [count, setCount] = useState<number>(0);
+
   return (
     <div>
       <h1>인덱스 페이지 입니다.</h1>

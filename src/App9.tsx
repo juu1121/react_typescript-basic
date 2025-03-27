@@ -1,6 +1,7 @@
 import { useState } from "react";
-import Fortune from "./components/fortune";
+
 import Friends from "./components/Friends";
+import Fortune from "./components/Fortune";
 
 
 
